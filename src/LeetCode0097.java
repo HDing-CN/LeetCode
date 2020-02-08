@@ -12,9 +12,8 @@ public class LeetCode0097 {
     // getInstance 方法前加同步
     public static synchronized LeetCode0097 getInstance() {
         if (instance == null) {
-            return new LeetCode0097();
+            instance = new LeetCode0097();
         }
-
         return instance;
     }
 
