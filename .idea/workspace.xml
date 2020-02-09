@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212c7381-37e2-4c49-b712-826fc648c30b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0246.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/LeetCode0377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/LeetCode0655.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode0001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode0246.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/LeetCode0001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0097.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/LeetCode0097.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/LeetCode0200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0246.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/LeetCode0246.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,41 +50,55 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode0246">
-    <configuration name="LeetCode0001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0001" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeetCode0655">
     <configuration name="LeetCode0097" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0097" />
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0097" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LeetCode0200" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0200" />
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0200" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LeetCode0246" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0246" />
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0246" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode0377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0377" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode0655" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0655" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0655" />
+        <item itemvalue="Application.LeetCode0377" />
         <item itemvalue="Application.LeetCode0246" />
         <item itemvalue="Application.LeetCode0200" />
         <item itemvalue="Application.LeetCode0097" />
-        <item itemvalue="Application.LeetCode0001" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581160366139</updated>
-      <workItem from="1581160367459" duration="3797000" />
+      <workItem from="1581160367459" duration="5797000" />
     </task>
     <servers />
   </component>
@@ -109,21 +132,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1581182429655">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1581256669971">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581182429655" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1581182429654">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581256669971" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1581256669970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581182429654" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1581182429653">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581256669970" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1581256669970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581182429653" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1581182429654">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581256669970" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1581256669971">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581182429654" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581256669971" />
   </component>
 </project>

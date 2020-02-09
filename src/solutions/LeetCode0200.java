@@ -1,3 +1,5 @@
+package solutions;
+
 public class LeetCode0200 {
 
     public static volatile LeetCode0200 instance = null;
