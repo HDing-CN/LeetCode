@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212c7381-37e2-4c49-b712-826fc648c30b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/solutions/LeetCode0048.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/LeetCode0142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/LeetCode0142.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0142.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0142.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode1267.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode1267.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/utils/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/utils/ListNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +47,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode0142">
-    <configuration name="LeetCode0142" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0142" />
+  <component name="RunManager" selected="Application.LeetCode0048">
+    <configuration name="LeetCode0048" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0048" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -57,9 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode0246" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0246" />
+    <configuration name="LeetCode0142" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0142" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0048" />
         <item itemvalue="Application.LeetCode0142" />
         <item itemvalue="Application.LeetCode1267" />
         <item itemvalue="Application.LeetCode0655" />
         <item itemvalue="Application.LeetCode0377" />
-        <item itemvalue="Application.LeetCode0246" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +142,7 @@
       <workItem from="1581160367459" duration="6028000" />
       <workItem from="1581332422315" duration="2596000" />
       <workItem from="1581432928347" duration="5361000" />
+      <workItem from="1581502082706" duration="3337000" />
     </task>
     <servers />
   </component>
@@ -139,41 +150,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581332438831">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="576" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581442787423">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1581332438831" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581434325510">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="576" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.810@0.23.1440.810" timestamp="1581442787423" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1581503376813">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581260491810" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581503376813" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581434325510" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581434325510">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1581503376811">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581260491808" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581503376811" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581434325510" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581434325508">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1581503376811">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581260491807" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581503376811" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581434325508" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581434325510">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1581503376812">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581260491809" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581503376812" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581434325510" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1581332532881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581332532881" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581432935848">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="421" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1581502131168">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581432935848" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581434364970">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="421" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1581502131168" />
+    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup" timestamp="1581511300180">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581511300180" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581434364970" />
   </component>
 </project>
