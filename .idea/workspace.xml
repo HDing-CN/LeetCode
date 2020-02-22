@@ -4,10 +4,7 @@
     <list default="true" id="212c7381-37e2-4c49-b712-826fc648c30b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0048.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0048.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0142.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0142.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0698.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0698.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0967.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0967.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solutions/LeetCode0698.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/LeetCode0698.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.LeetCode0698">
@@ -152,6 +152,7 @@
       <workItem from="1581502082706" duration="8996000" />
       <workItem from="1581742727817" duration="5961000" />
       <workItem from="1581753151795" duration="6329000" />
+      <workItem from="1582385417528" duration="3655000" />
     </task>
     <servers />
   </component>
@@ -159,44 +160,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1582374928403">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1582374928403" />
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581661035642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1581661035642" />
     <state x="576" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.810@0.23.1440.810" timestamp="1581442787423" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581793009327">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582393602612">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581599561700" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582393602612" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581793009327" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581793009327">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582393602611">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581599561699" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582393602611" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581793009327" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581793009326">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582393602610">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581599561698" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582393602610" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581793009326" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581793009327">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582393602611">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581599561699" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582393602611" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581793009327" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1581332532881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581332532881" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581753175168">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581753175168" />
-    <state x="421" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1581502131168" />
-    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup" timestamp="1581576996748">
+    <state x="421" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1582385417462">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581576996748" />
+    <state x="421" y="258" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582385417462" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581753175168" />
+    <state x="421" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1581502131168" />
+    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup" timestamp="1582392468501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582392468501" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581434364970" />
   </component>
 </project>

@@ -17,7 +17,7 @@ public class LeetCode0698 {
         return instance;
     }
 
-    public boolean canPartitionKSubsets(int[] nums, int k) {
+    public boolean canPartitionKSubsets1(int[] nums, int k) {
         int sum = Arrays.stream(nums).sum();
         // 如果sum除不尽k，就说明无法平均分成k份，因为数组内的元素都是整数
         if (sum % k > 0) {
@@ -42,10 +42,10 @@ public class LeetCode0698 {
         }
 
         System.out.println("num and group index: " + numIndex + " " + groupIndex);
-        return dfs(nums, groups, numIndex, groupIndex, average);
+        return dfs1(nums, groups, numIndex, groupIndex, average);
     }
 
-    private boolean dfs(int[] nums, int[] groups, int numIndex, int groupIndex, int average) {
+    private boolean dfs1(int[] nums, int[] groups, int numIndex, int groupIndex, int average) {
         // 如果所有数组内的数字都被放入group中，说明找到了正确的组合，返回true
         if (numIndex < 0) {
             return true;
@@ -55,7 +55,7 @@ public class LeetCode0698 {
             if (groups[i] + nums[numIndex] <= average) {
                 groups[i] += nums[numIndex];
                 // 如果当前数字能够放进group里，就把数字放进去，然后遍历后面的数字
-                if (dfs(nums, groups, numIndex - 1, groupIndex, average)) {
+                if (dfs1(nums, groups, numIndex - 1, groupIndex, average)) {
                     return true;
                 }
                 groups[i] -= nums[numIndex];
@@ -80,10 +80,62 @@ public class LeetCode0698 {
         return false;
     }
 
+    public boolean canPartitionKSubsets2(int[] nums, int k) {
+        int sum = 0, max = 0;
+        for (int i = 0; i < nums.length; i ++) {
+            sum += nums[i];
+            max = Math.max(max, nums[i]);
+        }
+
+        if (sum % k != 0 || max > sum / k) {
+            return false;
+        }
+
+        boolean[] numUsed = new boolean[nums.length];
+        Arrays.sort(nums);
+        return dfs2(nums, k, 0, numUsed, 0, 0, sum / k);
+    }
+
+    /**
+     * curGroup指的是当前的group的值，
+     * 上一种方法是对每一个数字，寻找合适的group；
+     * 而这一种方法是对每一个group，寻找合适的数字
+     * @param nums
+     * @param k
+     * @param curGroup
+     * @param numUsed
+     * @param groupIndex
+     * @param average
+     * @return
+     */
+    public boolean dfs2(int[] nums, int k, int curGroup, boolean[] numUsed, int groupIndex, int numIndex, int average) {
+        if (groupIndex == k) {
+            return true;
+        }
+
+        if (curGroup == average) {
+            return dfs2(nums, k, 0, numUsed, groupIndex + 1, 0, average);
+        }
+
+        for (int i = numIndex; i < nums.length; i ++) {
+            if (!numUsed[i] && curGroup + nums[i] <= average) {
+                numUsed[i] = true;
+                if (dfs2(nums, k, curGroup + nums[i], numUsed, groupIndex, i + 1, average)) {
+                    return true;
+                }
+                numUsed[i] = false;
+            }
+        }
+
+        return false;
+    }
+
     public static void main(String[] args) {
         LeetCode0698 leetCode0698 = LeetCode0698.getInstance();
-        int[] nums = {6,6,6,7,7,7,7,7,7,10,10,10};
-        int k = 3;
-        System.out.println(leetCode0698.canPartitionKSubsets(nums, k));
+
+        int[] nums = {1,2,2,3,3,4,5};
+        int k = 4;
+        // 方法1更快一些，剪枝剪得更加简洁
+        System.out.println(leetCode0698.canPartitionKSubsets2(nums, k));
     }
 }
