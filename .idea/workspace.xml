@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212c7381-37e2-4c49-b712-826fc648c30b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode0225.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/LeetCode1284.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/solutions/MyStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solutions/LeetCode0225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/LeetCode0206.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +46,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode0225">
-    <configuration name="LeetCode0048" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0048" />
+  <component name="RunManager" selected="Application.LeetCode0206">
+    <configuration name="LeetCode0206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.LeetCode0206" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0206" />
         <item itemvalue="Application.LeetCode0225" />
         <item itemvalue="Application.LeetCode0416" />
         <item itemvalue="Application.LeetCode0698" />
         <item itemvalue="Application.LeetCode0967" />
-        <item itemvalue="Application.LeetCode0048" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +153,8 @@
       <workItem from="1582385417528" duration="4027000" />
       <workItem from="1582618276626" duration="3122000" />
       <workItem from="1582985922001" duration="2686000" />
-      <workItem from="1583049122380" duration="3122000" />
+      <workItem from="1583049122380" duration="3951000" />
+      <workItem from="1583146086296" duration="868000" />
     </task>
     <servers />
   </component>
@@ -173,39 +171,39 @@
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1582895103865" />
     <state x="576" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.810@0.23.1440.810" timestamp="1581442787423" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583059116184">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583146761707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582638757411" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583059116184" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583146761707" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582638527199" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583059116183">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583146761707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582638757410" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583059116183" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583146761707" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582638527198" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583059116183">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583146761707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582638757409" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583059116183" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583146761707" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582638527197" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583059116184">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583146761707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582638757411" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583059116184" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583146761707" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582638527199" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1581332532881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581332532881" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583049126593">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583146085881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="421" y="258" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582618282353" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583049126593" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583146085881" />
     <state x="421" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1581502131168" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583059523849">
       <screen x="0" y="0" width="1536" height="824" />
