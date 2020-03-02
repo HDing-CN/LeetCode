@@ -1,4 +1,4 @@
-package solutions;
+package solutions.hard.problem0000to0500;
 
 import java.util.Arrays;
 import java.util.HashSet;

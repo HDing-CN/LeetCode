@@ -1,4 +1,4 @@
-package solutions;
+package solutions.medium.problem0500to1000;
 
 import java.util.ArrayList;
 import java.util.Arrays;

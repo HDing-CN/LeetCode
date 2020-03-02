@@ -1,4 +1,4 @@
-package solutions;
+package solutions.easy.problem0000to0500;
 
 import java.util.HashMap;
 

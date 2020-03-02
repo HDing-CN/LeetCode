@@ -1,4 +1,4 @@
-package solutions;
+package solutions.medium.problem1000to1500;
 
 import java.util.ArrayList;
 import java.util.HashMap;

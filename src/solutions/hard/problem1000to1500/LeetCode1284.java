@@ -1,4 +1,4 @@
-package solutions;
+package solutions.hard.problem1000to1500;
 
 public class LeetCode1284 {
 

@@ -1,8 +1,6 @@
-package solutions;
+package solutions.medium.problem0500to1000;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
 
 public class LeetCode0698 {
 
