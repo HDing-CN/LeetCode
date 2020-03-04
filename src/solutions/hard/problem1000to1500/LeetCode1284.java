@@ -1,5 +1,6 @@
 package solutions.hard.problem1000to1500;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -17,7 +18,6 @@ public class LeetCode1284 {
         return instance;
     }
 
-    private HashSet<String> hashSet = new HashSet<>();
     private HashMap<String, Integer> hashMap = new HashMap<>();
 
     public int minFlips(int[][] mat) {
@@ -28,22 +28,33 @@ public class LeetCode1284 {
                 if (mat[i][j] == 1) numOfOne += 1;
             }
         }
+        if (numOfOne == 0) return 0;
 
-        return dfs(mat, numOfOne, new int[]{-1, -1});
+        int ans = dfs(mat, numOfOne, new int[]{-1, -1}, new ArrayList<String>());
+        if (ans > 0) ans -= 1;
+        return ans;
     }
 
-    private int dfs(int[][] mat, int numOfOne, int[] previousFlipIndex) {
+    private int dfs(int[][] mat, int numOfOne, int[] previousFlipIndex, ArrayList<String> list) {
         // 终止条件1：达到目标状态
-        if (numOfOne == 0) return 1;
+        if (numOfOne == 0) {
+            list.add(matrixToString(mat));
+            System.out.println(list.toString());
+            list.remove(matrixToString(mat));
+            return 1;
+        }
 
         String matStr = matrixToString(mat);
-        // 终止条件2：发现自己陷入循环
-        if (this.hashMap.containsKey(matStr)) {
-            return this.hashMap.get(matStr);
+        // 终止条件2：发现自己陷入死循环
+        if (this.hashMap.containsKey(matStr) && this.hashMap.get(matStr) == -1) {
+            return -1;
         }
 
         this.hashMap.put(matStr, -1);
-        int ans = 0, minStep = Integer.MAX_VALUE;
+        // 跟二叉树深度那道题一样，计算路径深度，也就是计算state list中的节点数量，
+        // 因此，如果最终有解，路径深度减去1才是中间翻转的次数
+        int depth = 1;
+        int minStep = Integer.MAX_VALUE;
         boolean existValidSolution = false;
         for (int i = 0; i < mat.length; i ++) {
             for (int j = 0; j < mat[0].length; j ++) {
@@ -53,7 +64,9 @@ public class LeetCode1284 {
                 // 翻转mat[i][j]和其邻居
                 numOfOne = flip(mat, i, j, numOfOne);
                 // 从这里开始 向下搜索
-                int step = dfs(mat, numOfOne, new int[]{i, j});
+                list.add(matStr);
+                int step = dfs(mat, numOfOne, new int[]{i, j}, list);
+                list.remove(matStr);
                 if (step != -1) {
                     existValidSolution = true;
                     minStep = Math.min(step, minStep);
@@ -66,14 +79,14 @@ public class LeetCode1284 {
         // 如果不存在可行解，直接返回-1
         if (!existValidSolution) return -1;
 
-        ans += minStep;
-        this.hashMap.put(matStr, ans);
+        depth += minStep;
+        this.hashMap.put(matStr, depth);
 
-        return ans;
+        return depth;
     }
 
     /**
-     * 翻转mat[i][j]，返回操作之后的矩阵中0的个数
+     * 翻转mat[i][j]，返回操作之后的矩阵中1的个数
      * @param mat
      * @param i
      * @param j
@@ -102,6 +115,7 @@ public class LeetCode1284 {
 
     /**
      * test function
+     * 测试数组作为参数，其值会不会被修改
      * @return
      */
     private void test(int[][] mat, int x) {
@@ -124,21 +138,12 @@ public class LeetCode1284 {
     }
 
     public static void main(String[] args) {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(1);
-        stringBuilder.append('a');
-        stringBuilder.append("hello");
-        System.out.println(stringBuilder.toString());
-        System.out.println((int)(Math.pow(-1, 1)));
-
-        int[][] mat = {{1,1,1},{1,1,1},{1,1,1}};
+//        int[][] mat = {{1,1,1},{1,0,1},{0,0,0}};
+//        int[][] mat = {{0,0},{0,1}};
+        int[][] mat = {{1,1,0},{0,1,1},{1,0,1}};
         int x = 0;
         LeetCode1284 leetCode1284 = LeetCode1284.getInstance();
-        leetCode1284.test(mat, x);
-        for (int[] row : mat) {
-            System.out.println(Arrays.toString(row));
-        }
-        System.out.println("x = " + x);
+        System.out.println(leetCode1284.minFlips(mat));
     }
 
 }
